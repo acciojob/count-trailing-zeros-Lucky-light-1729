@@ -10,11 +10,3 @@ function trailingZeros(n) {
 
 const input = prompt("Enter a number");
 alert(trailingZeros(input));
-if (!isNaN(num) && num >= 0) 
-{
-	alert(trailingZeros(num));
-} 
-else 
-{
-	alert("Please enter a valid non-negative integer.");
-}
